@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web_base/pom.xml" />
+        <option value="$PROJECT_DIR$/web_client/pom.xml" />
       </list>
     </option>
   </component>
