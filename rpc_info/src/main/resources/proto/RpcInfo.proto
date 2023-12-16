@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.silhouette.rpcinfo";
+
+message ReqInfo {
+  optional string reqId = 1;
+  optional string msg = 2;
+}
+
+message RespInfo {
+  optional string respId = 1;
+  optional string msg = 2;
+  optional uint32 code = 3;
+}
