@@ -20,6 +20,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <protobuf.version>3.22.2</protobuf.version>
     <grpc.version>1.50.0</grpc.version>
+    <grpc.server.version>2.14.0.RELEASE</grpc.server.version>
     <annotation.api.version>1.2</annotation.api.version>
     <rpc.info.version>1.0-SNAPSHOT</rpc.info.version>
     <lombok.version>1.18.30</lombok.version>
@@ -43,6 +44,11 @@
         <groupId>io.grpc</groupId>
         <artifactId>grpc-all</artifactId>
         <version>${grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.devh</groupId>
+        <artifactId>grpc-server-spring-boot-starter</artifactId>
+        <version>${grpc.server.version}</version>
       </dependency>
       <dependency>
         <groupId>com.silhouette</groupId>
