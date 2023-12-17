@@ -11,8 +11,9 @@
     <groupId>com.example</groupId>
     <artifactId>thrift_server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>web_client</name>
-    <description>web_client</description>
+
+    <name>thrift_server</name>
+    <description>thrift_server</description>
 
     <dependencies>
         <dependency>

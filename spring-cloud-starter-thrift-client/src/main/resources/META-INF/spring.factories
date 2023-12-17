@@ -1,0 +1,2 @@
+io.ostenant.rpc.thrift.client.annotation.EnableThriftClient=\
+io.ostenant.rpc.thrift.client.ThriftClientAutoConfiguration

@@ -12,8 +12,8 @@
     <artifactId>grpc_server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>web_base</name>
-    <description>web_base</description>
+    <name>grpc_server</name>
+    <description>grpc_server</description>
     <properties>
         <java.version>17</java.version>
     </properties>
