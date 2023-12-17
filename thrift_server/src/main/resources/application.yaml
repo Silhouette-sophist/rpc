@@ -6,6 +6,14 @@ grpc:
     port: 9091
 
 
+## 用于Consul健康检查
+endpoints:
+  actuator:
+    sensitive: false
+    enabled: true
+management:
+  security:
+    enabled: false
 
 thrift:
   port: 8895
