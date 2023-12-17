@@ -13,7 +13,8 @@
 
   <modules>
     <module>rpc_info</module>
-    <module>web_server</module>
+    <module>grpc_server</module>
+    <module>thrift_server</module>
   </modules>
 
   <properties>
