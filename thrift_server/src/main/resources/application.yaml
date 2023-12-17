@@ -19,3 +19,11 @@ thrift:
   port: 8895
   min-thread-pool: 100
   max-thread-pool: 1000
+
+spring:
+  cloud:
+    consul:
+      discovery:
+        instance-id: ${spring.application.name}-${spring.cloud.client.ip-address}-${server.port}
+        prefer-ip-address: true
+      port: 8500

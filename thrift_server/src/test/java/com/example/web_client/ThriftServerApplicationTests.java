@@ -1,10 +1,10 @@
-package com.example.web_base;
+package com.example.web_client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WebServerApplicationTests {
+class ThriftServerApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,13 +1,13 @@
-package com.example.web_client;
+package com.example.web_base;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebClientApplication {
+public class GrpcServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebClientApplication.class, args);
+        SpringApplication.run(GrpcServerApplication.class, args);
     }
 
 }
