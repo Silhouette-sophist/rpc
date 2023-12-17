@@ -29,6 +29,11 @@
             <artifactId>rpc_info</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!--thrift 相关资源-->
+        <dependency>
+            <groupId>org.apache.thrift</groupId>
+            <artifactId>libthrift</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

@@ -4,3 +4,10 @@ server:
 grpc:
   server:
     port: 9091
+
+
+
+thrift:
+  port: 8895
+  min-thread-pool: 100
+  max-thread-pool: 1000

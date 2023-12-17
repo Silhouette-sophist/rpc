@@ -19,8 +19,9 @@ public class RpcController {
     @Autowired
     RpcServiceGrpc.RpcServiceBlockingStub rpcServiceBlockingStub;
 
-    @GetMapping("client")
+    @GetMapping("grpc")
     public Object callRemote(){
+        log.info("receive grpc call...");
         Iterator<RpcInfo.RespInfo> callRemote = rpcServiceBlockingStub.remoteCall(RpcInfo.ReqInfo.newBuilder()
                 .setReqId(UUID.randomUUID().toString())
                 .setMsg("call remote")

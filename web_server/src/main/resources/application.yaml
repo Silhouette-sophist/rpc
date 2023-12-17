@@ -1,0 +1,7 @@
+grpc:
+  server:
+    port: 9091
+
+thrift:
+  host: 'localhost' #远端thrift服务IP
+  port: 8895 #远端thrift服务端口

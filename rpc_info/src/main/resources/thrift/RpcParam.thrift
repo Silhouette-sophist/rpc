@@ -9,5 +9,5 @@ struct ThriftReqInfo {
 struct ThriftRespInfo {
     1:optional string respId,
     2:optional string msg
-    3:optional i8 code
+    3:optional i32 code
 }
