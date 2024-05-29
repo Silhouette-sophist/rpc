@@ -1,9 +1,12 @@
 ## rpc实战
+common rpc idl, such as thrift or protobuf, for practice
 
 ### rpc_info
 定义了rpc协议文件
 - proto
 - thrift
+
+you should first build idl to generate code!
 
 ### grpc_server
 - 服务启动于8080端口
